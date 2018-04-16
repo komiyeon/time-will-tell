@@ -810,7 +810,7 @@ p {
       font-weight: bold;
       text-transform: uppercase; }
   .header nav {
-    float: right; }
+    float: left; }
     .header nav .link {
       padding: 20px 20px 15px;
       display: inline-block;
