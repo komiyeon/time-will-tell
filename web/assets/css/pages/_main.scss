@@ -44,10 +44,10 @@
 }
 
 
-.title-area{
+.main-title-area{
   margin-bottom: 20px;
   h2{
-    font-size: 50px;
+    font-size: 80px;
     color: #4c4c4c;
     font-weight: 700;
     text-transform: capitalize;
@@ -55,11 +55,47 @@
   }
 }
 
+.title-area{
+  margin: 25px 0;
+  .motion-txt{
+    p{
+      font-size: 20px;
+      font-weight: 600;
+      color: #f66665;
+      margin: 0 0 0 10px;
+      display: inline-block;
+    }
+    .dot{
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      background: #f66665;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+  }
+  h2{
+    font-size: 50px;
+    color: #4c4c4c;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 14px 0;
+  }
+  p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #3c3838;
+    line-height: 1.5;
+  }
+}
 
-//section story behind
+// section story behind
 .story-behind{
   padding: 160px 0 90px;
   .lists{
+    padding-top: 150px;
     ul{
       li{
         margin-bottom: 60px;
@@ -104,3 +140,159 @@
     }
   }
 }
+
+// hours
+.hours{
+  text-align: center;
+  background-image: -webkit-linear-gradient(120deg,#eb3349,#f45c43);
+  background-image: linear-gradient(120deg,#eb3349,#f45c43);
+  height: 465px;
+  .wave-img{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  h2{
+    padding-top: 110px;
+  }
+}
+
+// Message Capsulation
+.massage-capsulation{
+
+  margin: 150px 0;
+
+  .mc-txt{
+    max-width: 770px;
+    float: left;
+    .mc-step{
+      padding-top: 50px;
+    }
+    .mc-step li{
+      float: left;
+      padding-right: 25px;
+      width: 33.33%;
+      span{
+        display: block;
+      }
+      h3{
+        font-size: 24px;
+        font-weight: 700;
+        color: #4c4c4c;
+        padding: 20px 0;
+      }
+      p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #3c3838;
+        line-height: 1.5;
+      }
+    }
+  }
+  .mc-img{
+    float: right;
+    max-width: 400px;
+    margin-top: 30px;
+  }
+}
+
+// Monetization
+.monetization{
+  margin-bottom: 60px;
+  .monetization-img{
+    width: 830px;
+    height: 940px;
+    float: left;
+    position: relative;
+    .img1{
+      position: absolute;
+      top: 0;
+      left: 270px;
+      z-index: 0;
+    }
+    .img2{
+      position: absolute;
+      top: 135px;
+      left: 0px;
+      z-index: 2;
+    }
+    .img3{
+      position: absolute;
+      top: 430px;
+      right: -15px;
+      z-index: 3;
+    }
+    .img4{
+      position: absolute;
+      bottom: 0px;
+      left: 65px;
+      z-index: 4;
+    }
+    .icon-img1{
+      position: absolute;
+      top: 365px;
+      left: 35px;
+    }
+    .icon-img2{
+      position: absolute;
+      top: 470px;
+      left: -30px;
+    }
+    .icon-img3{
+      position: absolute;
+      top: 500px;
+      left: 130px;
+    }
+    .icon-img4{
+      position: absolute;
+      top: 600px;
+      left: 40px;
+    }
+    .icon-img5{
+      position: absolute;
+      top: 385px;
+      right: 165px;
+    }
+    .icon-img6{
+      position: absolute;
+      top: 350px;
+      right: 20px;
+    }
+    .icon-img7{
+      position: absolute;
+      top: 470px;
+      right: 110px;
+    }
+    .icon-img8{
+      position: absolute;
+      top: 510px;
+      right: 10px;
+    }
+  }
+  .monetization-txt{
+    float: right;
+    max-width: 430px;
+    margin-top: 260px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

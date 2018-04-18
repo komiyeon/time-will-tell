@@ -294,7 +294,7 @@ body, html {
   height: 100%; }
 
 .container {
-  max-width: 1230px;
+  max-width: 1300px;
   padding: 0 15px;
   margin: 0 auto; }
 
@@ -810,7 +810,7 @@ p {
       font-weight: bold;
       text-transform: uppercase; }
   .header nav {
-    float: left; }
+    float: right; }
     .header nav .link {
       padding: 20px 20px 15px;
       display: inline-block;
@@ -879,50 +879,185 @@ p {
       margin-left: -150px;
       max-width: 300px; }
 
-.title-area {
+.main-title-area {
   margin-bottom: 20px; }
-  .title-area h2 {
-    font-size: 50px;
+  .main-title-area h2 {
+    font-size: 80px;
     color: #4c4c4c;
     font-weight: 700;
     text-transform: capitalize;
     text-align: center; }
 
+.title-area {
+  margin: 25px 0; }
+  .title-area .motion-txt p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #f66665;
+    margin: 0 0 0 10px;
+    display: inline-block; }
+  .title-area .motion-txt .dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #f66665;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-right: 5px; }
+  .title-area h2 {
+    font-size: 50px;
+    color: #4c4c4c;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 14px 0; }
+  .title-area p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3c3838;
+    line-height: 1.5; }
+
 .story-behind {
   padding: 160px 0 90px; }
-  .story-behind .lists ul li {
-    margin-bottom: 60px;
-    position: relative; }
-    .story-behind .lists ul li .icon {
-      width: 50%;
+  .story-behind .lists {
+    padding-top: 150px; }
+    .story-behind .lists ul li {
+      margin-bottom: 60px;
+      position: relative; }
+      .story-behind .lists ul li .icon {
+        width: 50%;
+        float: left;
+        text-align: right;
+        padding-right: 80px; }
+      .story-behind .lists ul li .desc {
+        width: 50%;
+        float: left;
+        padding: 0 80px; }
+        .story-behind .lists ul li .desc h3 {
+          font-size: 24px;
+          font-weight: 600;
+          color: #f66665;
+          max-width: 340px;
+          margin-bottom: 30px; }
+        .story-behind .lists ul li .desc p {
+          font-size: 16px;
+          font-weight: 400;
+          color: #444444; }
+      .story-behind .lists ul li .dot {
+        width: 34px;
+        height: 34px;
+        background: #f66665;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -17px;
+        margin-top: -17px; }
+
+.hours {
+  text-align: center;
+  background-image: -webkit-linear-gradient(120deg, #eb3349, #f45c43);
+  background-image: linear-gradient(120deg, #eb3349, #f45c43);
+  height: 465px; }
+  .hours .wave-img {
+    position: relative;
+    top: 0;
+    left: 0; }
+  .hours h2 {
+    padding-top: 110px; }
+
+.massage-capsulation {
+  margin: 150px 0; }
+  .massage-capsulation .mc-txt {
+    max-width: 770px;
+    float: left; }
+    .massage-capsulation .mc-txt .mc-step {
+      padding-top: 50px; }
+    .massage-capsulation .mc-txt .mc-step li {
       float: left;
-      text-align: right;
-      padding-right: 80px; }
-    .story-behind .lists ul li .desc {
-      width: 50%;
-      float: left;
-      padding: 0 80px; }
-      .story-behind .lists ul li .desc h3 {
+      padding-right: 25px;
+      width: 33.33%; }
+      .massage-capsulation .mc-txt .mc-step li span {
+        display: block; }
+      .massage-capsulation .mc-txt .mc-step li h3 {
         font-size: 24px;
-        font-weight: 600;
-        color: #f66665;
-        max-width: 340px;
-        margin-bottom: 30px; }
-      .story-behind .lists ul li .desc p {
+        font-weight: 700;
+        color: #4c4c4c;
+        padding: 20px 0; }
+      .massage-capsulation .mc-txt .mc-step li p {
         font-size: 16px;
         font-weight: 400;
-        color: #444444; }
-    .story-behind .lists ul li .dot {
-      width: 34px;
-      height: 34px;
-      background: #f66665;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      border-radius: 50%;
+        color: #3c3838;
+        line-height: 1.5; }
+  .massage-capsulation .mc-img {
+    float: right;
+    max-width: 400px;
+    margin-top: 30px; }
+
+.monetization {
+  margin-bottom: 60px; }
+  .monetization .monetization-img {
+    width: 830px;
+    height: 940px;
+    float: left;
+    position: relative; }
+    .monetization .monetization-img .img1 {
       position: absolute;
-      left: 50%;
-      top: 50%;
-      margin-left: -17px;
-      margin-top: -17px; }
+      top: 0;
+      left: 270px;
+      z-index: 0; }
+    .monetization .monetization-img .img2 {
+      position: absolute;
+      top: 135px;
+      left: 0px;
+      z-index: 2; }
+    .monetization .monetization-img .img3 {
+      position: absolute;
+      top: 430px;
+      right: -15px;
+      z-index: 3; }
+    .monetization .monetization-img .img4 {
+      position: absolute;
+      bottom: 0px;
+      left: 65px;
+      z-index: 4; }
+    .monetization .monetization-img .icon-img1 {
+      position: absolute;
+      top: 365px;
+      left: 35px; }
+    .monetization .monetization-img .icon-img2 {
+      position: absolute;
+      top: 470px;
+      left: -30px; }
+    .monetization .monetization-img .icon-img3 {
+      position: absolute;
+      top: 500px;
+      left: 130px; }
+    .monetization .monetization-img .icon-img4 {
+      position: absolute;
+      top: 600px;
+      left: 40px; }
+    .monetization .monetization-img .icon-img5 {
+      position: absolute;
+      top: 385px;
+      right: 165px; }
+    .monetization .monetization-img .icon-img6 {
+      position: absolute;
+      top: 350px;
+      right: 20px; }
+    .monetization .monetization-img .icon-img7 {
+      position: absolute;
+      top: 470px;
+      right: 110px; }
+    .monetization .monetization-img .icon-img8 {
+      position: absolute;
+      top: 510px;
+      right: 10px; }
+  .monetization .monetization-txt {
+    float: right;
+    max-width: 430px;
+    margin-top: 260px; }
 
 /*# sourceMappingURL=style.css.map */
