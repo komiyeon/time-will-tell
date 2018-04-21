@@ -833,6 +833,60 @@ p {
         border-color: #ffffff; }
 
 /* footer */
+.footer .top-footer {
+  background: #2d2d2d;
+  padding: 50px;
+  height: 250px; }
+  .footer .top-footer .company-info {
+    float: left; }
+    .footer .top-footer .company-info .copyright {
+      width: 410px;
+      font-size: 24px;
+      font-weight: 300;
+      color: #c3c3c3;
+      line-height: 1.5;
+      padding: 30px 0 10px 0; }
+    .footer .top-footer .company-info .policy a {
+      font-size: 14px;
+      font-weight: 400;
+      color: #7b7b7b;
+      text-decoration: underline; }
+  .footer .top-footer .app-links {
+    float: right;
+    margin: -50px -40px 0 0; }
+    .footer .top-footer .app-links li {
+      padding: 50px 40px;
+      float: left;
+      border-left: 1px solid #212121; }
+.footer .btm-footer {
+  background: #212121;
+  padding: 50px;
+  height: 468px; }
+  .footer .btm-footer .links li {
+    width: 25%;
+    float: left; }
+    .footer .btm-footer .links li p {
+      font-size: 40px;
+      font-weight: 900;
+      color: #ffffff;
+      text-transform: uppercase;
+      padding-bottom: 20px; }
+    .footer .btm-footer .links li a.link {
+      font-size: 24px;
+      font-weight: 300;
+      color: #bbbbbb;
+      display: block;
+      margin-bottom: 20px;
+      -webkit-transition: all 0.4s;
+      -moz-transition: all 0.4s;
+      -ms-transition: all 0.4s;
+      -o-transition: all 0.4s;
+      transition: all 0.4s; }
+      .footer .btm-footer .links li a.link:hover {
+        color: #ffffff; }
+  .footer .btm-footer .links li.contact-us .contact {
+    float: right; }
+
 .form-control {
   display: inline-block;
   width: 100%;
@@ -1574,7 +1628,7 @@ p {
   padding-bottom: 60px; }
   .technologies .wave-img3 {
     position: relative;
-    top: -104px;
+    top: -98px;
     left: 0; }
   .technologies h3 {
     font-size: 160px;

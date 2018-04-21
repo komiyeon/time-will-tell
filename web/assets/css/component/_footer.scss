@@ -1,2 +1,73 @@
 /* footer */
 
+.footer{
+  .top-footer{
+    background: #2d2d2d;
+    padding: 50px;
+    height: 250px;
+    .company-info{
+      float: left;
+      .copyright{
+        width: 410px;
+        font-size: 24px;
+        font-weight: 300;
+        color: #c3c3c3;
+        line-height: 1.5;
+        padding: 30px 0 10px 0;
+      }
+      .policy a{
+        font-size: 14px;
+        font-weight: 400;
+        color: #7b7b7b;
+        text-decoration: underline;
+      }
+    }
+    .app-links{
+      float: right;
+      margin: -50px -40px 0 0;
+      li{
+        padding: 50px 40px;
+        float: left;
+        border-left: 1px solid #212121;
+      }
+    }
+  }
+  .btm-footer{
+    background: #212121;
+    padding: 50px;
+    height: 468px;
+    .links{
+      li{
+        width: 25%;
+        float: left;
+        p{
+          font-size: 40px;
+          font-weight: 900;
+          color: #ffffff;
+          text-transform: uppercase;
+          padding-bottom: 20px;
+        }
+        a.link{
+          font-size: 24px;
+          font-weight: 300;
+          color: #bbbbbb;
+          display: block;
+          margin-bottom: 20px;
+          -webkit-transition: all 0.4s;
+          -moz-transition: all 0.4s;
+          -ms-transition: all 0.4s;
+          -o-transition: all 0.4s;
+          transition: all 0.4s;
+        &:hover{
+          color: #ffffff;
+        }
+        }
+      }
+      li.contact-us{
+        .contact{
+          float: right;
+        }
+      }
+    }
+  }
+}
